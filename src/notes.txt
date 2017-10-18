@@ -1,0 +1,17 @@
+input controls in react come in 2 flavors:
+
+1. controlled inputs - programmer responsible for controlling
+state
+
+state: value and callback function that gets passed in
+as props. parent component is responsible for reacting
+to changes and passing updated value to child component
+
+ -> box: Hello Worl
+  user types "d"
+ -> input calls onChange prop
+  onChange calls handle Change
+ -> state is updated
+  setState triggers
+
+2.
